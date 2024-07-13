@@ -1,6 +1,5 @@
 # LLM-model-evaluation-and-Fine-tuning
 Evaluation and fine-tuning of Meta Llama 2 7B model using AWS SageMaker for text generation in healthcare domains.
-Here's a structured README using Markdown with proper headings and a table of contents:
 
 ---
 
