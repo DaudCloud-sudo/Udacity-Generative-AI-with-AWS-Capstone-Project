@@ -86,7 +86,6 @@ The fine-tuned model's performance on domain-specific text generation tasks show
 
 ![image](https://github.com/user-attachments/assets/397edcd6-83f3-4534-8529-58b93ee95317)
 
-![Fine-tuned Model Evaluation](path/to/fine_tuned_model_evaluation_screenshot.png)
 
 The `Model_FineTuning.ipynb` file is attached for reference.
 
