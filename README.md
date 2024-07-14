@@ -39,7 +39,7 @@ Evaluation and fine-tuning of Meta Llama 2 7B model using AWS SageMaker for text
 ---
 
 ### Step 2: Domain Choice
-**Healthcare**  
+**Information Technology**  
 I chose the IT domain to fine-tune the Meta Llama 2 7B model.
 
 ---
@@ -64,7 +64,7 @@ The `Model_Evaluation.ipynb` file is attached for reference.
 
 ### Step 4: Fine-tuning the Model
 
-I fine-tuned the model using a dataset relevant to the Healthcare domain. The `Model_FineTuning.ipynb` notebook demonstrates the fine-tuning process. The dataset used for fine-tuning is specified in the `Model_FineTuning.ipynb` notebook file.
+I fine-tuned the model using a dataset relevant to the IT domain. The `Model_FineTuning.ipynb` notebook demonstrates the fine-tuning process. The dataset used for fine-tuning is specified in the `Model_FineTuning.ipynb` notebook file.
 
 **Screenshots of fine-tuning process:**
 
@@ -81,7 +81,7 @@ After fine-tuning, I deployed the fine-tuned Llama2 model on AWS SageMaker. The 
 ![Fine-tuned Model Deployment](path/to/fine_tuned_model_deployment_screenshot.png)
 
 **Response to domain-specific input after fine-tuning:**
-The fine-tuned model's performance on domain-specific text generation tasks showed a significant improvement. It provided more relevant and coherent responses to healthcare-specific queries.
+The fine-tuned model's performance on domain-specific text generation tasks showed a significant improvement. It provided more relevant and coherent responses to IT-specific queries.
 
 **Screenshots of fine-tuned model evaluation:**
 
