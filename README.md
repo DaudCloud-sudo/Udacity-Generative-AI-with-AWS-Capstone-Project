@@ -22,7 +22,7 @@ Evaluation and fine-tuning of Meta Llama 2 7B model using AWS SageMaker for text
 ### Step 1: Environment and Project Setup
 
 #### 1. Create an AWS SageMaker IAM Role
-- Log into the AWS console using the "Launch Cloud Gateway" button in the course menu.
+- Log into the AWS console using the "Launch Cloud Gateway" button in the course menu. Ensure you are working in the US-west-2 Region by selecting it from the dropdown menu in the top of the AWS console.
 - Navigate to the SageMaker home page.
 - In the left navigation menu, choose Role Manager and click on "Create a role."
 - Name the role and configure it with the necessary permissions.
