@@ -1,5 +1,5 @@
 # LLM-model-evaluation-and-Fine-tuning
-Evaluation and fine-tuning of Meta Llama 2 7B model using AWS SageMaker for text generation in healthcare domains.
+Evaluation and fine-tuning of Meta Llama 2 7B model using AWS SageMaker for text generation in IT domains.
 
 ---
 
@@ -40,7 +40,7 @@ Evaluation and fine-tuning of Meta Llama 2 7B model using AWS SageMaker for text
 
 ### Step 2: Domain Choice
 **Healthcare**  
-I chose the Healthcare domain to fine-tune the Meta Llama 2 7B model.
+I chose the IT domain to fine-tune the Meta Llama 2 7B model.
 
 ---
 
@@ -53,8 +53,7 @@ The Llama2 model was successfully deployed on AWS SageMaker. The output of the `
 ![Model Deployment](path/to/model_deployment_screenshot.png)
 
 **Response to domain-specific input:**
-The model initially generated healthcare-specific content with a moderate level of relevance and coherence. It demonstrated an understanding of medical terminology and context, though refinement was needed for nuanced medical discourse.
-
+The model initially generated IT-specific content with a moderate level of relevance and coherence. It needs to be fine-tuned to produce highly accurate responses.
 **Screenshots of model evaluation:**
 
 ![Model Evaluation](path/to/model_evaluation_screenshot.png)
