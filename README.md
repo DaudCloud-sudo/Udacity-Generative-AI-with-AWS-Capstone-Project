@@ -15,6 +15,7 @@ Evaluation and fine-tuning of Meta Llama 2 7B model using AWS SageMaker for text
 2. [Step 2: Domain Choice](#step-2-domain-choice)
 3. [Step 3: Model Evaluation](#step-3-model-evaluation)
 4. [Step 4: Fine-tuning the Model](#step-4-fine-tuning-the-model)
+5. [Step 5: Deploy and Evaluate the Fine-tuned Model](#step-4-deploy-and-evaluate-the-fine-tuned-model)
 
 ---
 
@@ -25,6 +26,9 @@ Evaluation and fine-tuning of Meta Llama 2 7B model using AWS SageMaker for text
 - Navigate to the SageMaker home page.
 - In the left navigation menu, choose Role Manager and click on "Create a role."
 - Name the role and configure it with the necessary permissions.
+
+![image](https://github.com/user-attachments/assets/6ba72168-66f7-4c36-ad3a-ce1d5964a9cb)
+
 
 ![Creating AWS Sagemaker IAM Role](C:\Users\DAUD\Desktop\AWS Project/to/IAM-Role_Sagemaker-1.png)
 
