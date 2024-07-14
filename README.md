@@ -30,15 +30,18 @@ Evaluation and fine-tuning of Meta Llama 2 7B model using AWS SageMaker for text
 ![image](https://github.com/user-attachments/assets/6ba72168-66f7-4c36-ad3a-ce1d5964a9cb)
 
 
-![Creating AWS Sagemaker IAM Role](C:\Users\DAUD\Desktop\AWS Project/to/IAM-Role_Sagemaker-1.png)
-
 #### 2. Create an AWS SageMaker Notebook Instance
 - Go to the SageMaker home page and choose Notebook -> Notebook instances from the left navigation menu.
 - Click on "Create notebook instance" and ensure you choose the IAM SageMaker role created in Step 1.
 
+![image](https://github.com/user-attachments/assets/04a29a4c-346b-4bdd-a83d-a6663200bcf5)
+
+
 #### 3. Request a GPU Instance for Training
 - Visit the AWS Service Quotas dashboard and request an `ml.g5.2xlarge` instance for training job usage.
 - Verify your request was approved by checking the Quota request history page.
+
+![RequestingGPUForTraining](https://github.com/user-attachments/assets/d849d486-cf90-40ff-acd1-bba93e6a33a3)
 
 ---
 
@@ -52,15 +55,13 @@ I chose the IT domain to fine-tune the Meta Llama 2 7B model.
 
 The Llama2 model was successfully deployed on AWS SageMaker. The output of the `Model_Evaluation.ipynb` file verifies the deployment.
 
-**Screenshots of model deployment:**
+![image](https://github.com/user-attachments/assets/753e4f0b-41a5-44f6-842d-587db13b0772)
 
-![Model Deployment](path/to/model_deployment_screenshot.png)
 
 **Response to domain-specific input:**
 The model initially generated IT-specific content with a moderate level of relevance and coherence. It needs to be fine-tuned to produce highly accurate responses.
-**Screenshots of model evaluation:**
 
-![Model Evaluation](path/to/model_evaluation_screenshot.png)
+![image](https://github.com/user-attachments/assets/0dc4a43b-089e-4c7d-b821-83084f39ca6b)
 
 The `Model_Evaluation.ipynb` file is attached for reference.
 
@@ -70,24 +71,20 @@ The `Model_Evaluation.ipynb` file is attached for reference.
 
 I fine-tuned the model using a dataset relevant to the IT domain. The `Model_FineTuning.ipynb` notebook demonstrates the fine-tuning process. The dataset used for fine-tuning is specified in the `Model_FineTuning.ipynb` notebook file.
 
-**Screenshots of fine-tuning process:**
+![image](https://github.com/user-attachments/assets/ad704b24-2a3e-4cdb-b49d-06b4f5df2f44)
 
-![Fine-tuning Process](path/to/fine_tuning_screenshot.png)
 
 The `Model_FineTuning.ipynb` file is attached for reference.
 
-### Evaluate the Fine-tuned Llama2 Large Language Model
+### Step 5: Evaluate the Fine-tuned Llama2 Large Language Model
 
 After fine-tuning, I deployed the fine-tuned Llama2 model on AWS SageMaker. The deployment steps are shown in the `Model_FineTuning.ipynb` notebook cell output.
 
-**Screenshots of fine-tuned model deployment:**
-
-![Fine-tuned Model Deployment](path/to/fine_tuned_model_deployment_screenshot.png)
 
 **Response to domain-specific input after fine-tuning:**
 The fine-tuned model's performance on domain-specific text generation tasks showed a significant improvement. It provided more relevant and coherent responses to IT-specific queries.
 
-**Screenshots of fine-tuned model evaluation:**
+![image](https://github.com/user-attachments/assets/397edcd6-83f3-4534-8529-58b93ee95317)
 
 ![Fine-tuned Model Evaluation](path/to/fine_tuned_model_evaluation_screenshot.png)
 
@@ -95,4 +92,3 @@ The `Model_FineTuning.ipynb` file is attached for reference.
 
 ---
 
-This structured format should make it easy for anyone to follow the steps and understand the project setup and evaluation process.
